@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Main Styling */
+
+html,
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+p{
+    font-size: 1rem;
+    margin: 10px 0;
+    line-height: 1.7em;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* utility classes */
+
+.container{
+    margin: auto;
+    max-width: 1300px;
+    overflow: auto;
+    padding: 0 10px;
+}
+
+.large{
+    font-size: 1.25rem;
+}
+
+.display-1{
+    font-size: 6rem;
+}
+
+.btn{
+    display: inline-block;
+    font-size: 15px;
+    padding: 12px 32px;
+    cursor: pointer;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 4px;
+}
+
+.btn-light{
+    background: #eff0f8;
+    color: #000;
+}
+
+form label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+form .form-group {
+  margin-bottom: 1rem;
+}
+
+form .form-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.7rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+/* Navbar */
+
+#navbar{
+    background: #ee8731;
+    overflow: auto;
+    padding: 20px 0;
+}
+
+#navbar .logo{
+    float: left;
+    font-size: 27px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #000;
+}
+
+/* Showcase */
+
+#showcase{
+    background: #ee8731;
+    padding: 90px 0;
+}
+
+.showcase-img{
+    float: left;
+    width: 50%;
+    padding: 20px;
+}
+
+.showcase-img img {
+    width: 100%;
+    padding-top: 20px;
+    padding-right: 40px;
+}
+
+.showcase-text {
+    float: right;
+    width: 50%;
+}
+
+.showcase-text h1{
+    padding-top: 30px;
+}
+
+.showcase-text p.large{
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.showcase-text p.body-text{
+    color: #fff;
+    padding: 10px 0;
+}
+
+.showcase-text a {
+    margin-top: 20px;
+}
+
+/* features */
+
+#feature{
+    padding: 90px 0;
+
+}
+
+#feature p{
+    font-weight: 900;
+    font-size: 56px;
+}
+
+#feature p:last-child{
+    color: #ee8731;
+    padding: 40px 0;
+}
+
+/* Contact */
+
+#contact{
+    background: #000;
+    color: #fff;
+    padding: 150px 0 80px 0;
+}
+
+#contact form{
+    width: 60%;
+    margin: 0 auto;
+}
+
+#contact button{
+    width: 100%;
+}
+
+#mainfooter{
+    background: #000;
+    text-align: center;
+    padding: 30px;
+}
+
+footer .twitter-follow-button {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}

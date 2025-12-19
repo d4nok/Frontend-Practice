@@ -1,0 +1,101 @@
+/* Utility Classes */
+.display-1 { 
+  font-size: 45px; 
+}
+.display-2 { 
+  font-size: 35px;
+}
+
+/* Mainheader */
+#mainheader {
+  height: 100%;
+}
+
+/* Navbar */
+#navbar .logo {
+  padding-left: 20px;
+}
+
+/* Showcase */
+#showcase {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.showcase-title {
+  float: none;
+  width: 100%;
+  padding: 20px;
+}
+
+.showcase-title h1 {
+  padding-bottom: 10px;
+}
+
+.showcase-form {
+  float: none;
+  width: 100%;
+}
+
+.form-box {
+  padding: 50px 30px;
+  border-top-left-radius: 80px;
+}
+
+.form-box h3 {
+  padding-bottom: 20px;
+}
+
+/* Features */
+#features {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#features h2 {
+  padding-bottom: 20px;
+}
+
+.features-image-1,
+.features-text-1,
+.features-text-2,
+.features-image-2 {
+  float: none;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Sign Up */
+#signup {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.signup-text {
+  float: none;
+  width: 100%;
+  padding-left: 0px;
+}
+
+.signup-btn {
+  float: none;
+  width: 100%;
+  padding-top: 10px;
+}
+
+
+/* About */
+#about {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#about p {
+  width: 100%;
+}
+
+/* Footer */
+#mainfooter {
+  padding:20px;
+}

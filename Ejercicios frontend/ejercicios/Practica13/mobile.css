@@ -1,0 +1,55 @@
+/* utility classes */
+
+
+.display-1{
+    font-size: 4rem;
+}
+
+/* Navbar */
+
+#navbar{
+    text-align: center;
+}
+
+#navbar .logo{
+    float: none;
+    padding-top: 20px;
+}
+
+/* Showcase */
+
+#showcase{
+    padding: 20px 20px 40px 20px;
+}
+
+.showcase-img,
+.showcase-text{
+    float: none;
+    width: 100%;
+    padding: 10px;
+}
+
+
+
+/* features */
+
+#feature{
+    padding: 20px ;
+
+}
+
+#feature p{
+    font-size: 30px;
+}
+
+
+/* Contact */
+
+#contact{
+    padding: 50px 0 20px 0;
+}
+
+#contact form{
+    width: 90%;
+    margin: 0 auto;
+}

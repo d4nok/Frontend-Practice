@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;700;800;900&display=swap');
+
+/* Reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Main Styling */
+html,
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #0E0A27;
+  color: #fff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.75rem; }
+h4 { font-size: 1.5rem; }
+h5 { font-size: 1.25rem; }
+h6 { font-size: 1rem; }
+
+h1,
+h4,
+p {
+  line-height: 1.4em;
+}
+
+p {
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Utility Classes */
+.container {
+  margin: auto;
+  max-width: 1300px;
+  overflow: auto;
+  padding: 0 10px;
+}
+
+.large {
+  font-size: 1.2rem;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  padding: 13px 20px;
+}
+
+.btn-red {
+  background: #d00044;
+  color: #fff;
+  border: 2px solid #d00044;
+  border-radius: 5px;
+}
+
+form label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+form .form-group {
+  margin-bottom: 1rem;
+}
+
+form .form-control {
+  display: block;
+  width: 100%;
+  padding: .375rem .7rem;
+  font-size: 1rem;
+}
+
+/* Nav */
+#navbar{
+  overflow: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#navbar .logo {
+  float: left;
+  padding-top: 16px;
+  font-size: 25px;
+}
+
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+
+#navbar ul li {
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Showcase */
+#showcase {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#showcase img {
+  width: 50%;
+}
+
+#showcase p {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#showcase a{
+  width: 180px;
+}
+
+/* Clients */
+#clients {
+  background-image: linear-gradient(to right, #1b33f0, #d0004a);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.client-box {
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+
+.client-box img {
+  height: 70px;
+}
+
+/* Services */
+#services {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#services h4 {
+  padding-bottom: 20px;
+}
+
+.service-box {
+  float: left;
+  width: 33%;
+  padding: 50px;
+}
+
+.service-box img {
+  width: 220px;
+  text-align: center;
+}
+
+/* Testimonial */
+#testimonial {
+  background: #3e3a52;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#testimonial p {
+  text-align: center;
+  padding: 10px 120px;
+}
+
+.testimonial-detail {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.testimonial-detail-img {
+  float: left;
+  width: 50%;
+}
+
+.testimonial-detail-img img{
+  width: 80px;
+  border-radius: 50%;
+  padding: 1px;
+  float: right;
+}
+
+.testimonial-detail-name {
+  float: right;
+  width: 50%;
+}
+
+.testimonial-detail-name p {
+  padding: 12px 20px!important;
+  float: left;
+}
+
+/* Contact */
+#contact {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#contact h4 {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+#contact form {
+  width: 50%;
+  margin: 0 auto;
+}
+
+#contact button {
+  width: 100%;
+}
+
+/* Footer */
+#mainfooter {
+  text-align: center;
+  padding: 40px;
+}

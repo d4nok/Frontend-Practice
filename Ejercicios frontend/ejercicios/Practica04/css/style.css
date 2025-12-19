@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Reset */
+* {
+ margin: 0; 
+ padding: 0;
+ box-sizing: border-box;
+}
+
+/* Main Styling */
+html, 
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 { font-size: 2.5rem;}
+h2{
+    font-size: 2rem;
+    font-weight: 400;
+}
+h3{
+    font-size: 1.75rem;
+}
+p{
+    font-size: 1rem;
+    margin: 10px 0;
+    line-height: 1.7rem;
+}
+
+a{text-decoration: none;}
+
+/* Utility Classes */
+
+.container{
+    margin: auto;
+    max-width: 1300px;
+    overflow: auto;
+    padding: 0 20;
+}
+
+.display-1{
+    font-size: 60px;
+    font-weight: 200;
+}
+
+.display-2{
+    font-size: 50px;
+    font-weight: 200;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 15px;
+    padding: 12px 23px;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 4px;
+}
+
+
+.btn-light{
+    background: #f9f9f9;
+    border:1px solid #f9f9f9;
+    color: #4d4d4d;
+}
+
+form label{
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+form .form-group{
+    margin-bottom: 1rem;
+
+}
+
+form .form-control{
+    display: block;
+    width: 100%;
+    padding: 6px 12px;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #4d4d4d;
+    background-color: rgb(255, 255, 255, 0.7);
+    border: none;
+    border-radius: 4px;
+}
+
+/* Mainheader0 */
+
+#mainheader{
+    background: url(../img/showcase.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+
+/* Navbar */
+
+#navbar{
+    background-color: rgb(255, 255, 255, 0.4);
+    color: #000;
+    overflow: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#navbar a{
+    color: #000;
+}
+
+#navbar .logo{
+    float: left;
+    padding-top: 16px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#navbar ul{
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li{
+    float: left;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Showcase */
+
+#showcase{
+    padding-top: 160px;
+}
+
+.showcase-title {
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding: 150px 30px;
+}
+.showcase-title .large{
+    text-align: justify;
+}
+.showcase-title h1{
+    padding-bottom: 20px;
+}
+
+.showcase-form {
+    float: right;
+    width: 50%;
+    padding: 20px;
+}
+
+.form-box{
+    background: rgb(255, 255, 255, 0.4);
+    padding: 90px 70px;
+    border-top-left-radius: 80px;
+}
+
+.form-box h3{
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.form-box .btn{
+    width: 100%;
+    margin-top: 15px;
+}
+
+/* Features */
+
+#features{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+#features h2{
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.features-image-1{
+    float: left;
+    width: 50%;
+    padding: 30px;
+}
+
+.features-image-1 img{
+    width: 100%;
+    border-top-right-radius: 80px;
+}
+
+.features-text-1{
+    float: right;
+    width: 50%;
+    padding: 30px;
+}
+.features-text-2{
+    float: left;
+    width: 50%;
+    padding: 30px;
+    text-align: right;
+}
+
+
+
+.features-image-2{
+    float: right;
+    width: 50%;
+    padding: 30px;
+}
+
+.features-image-2 img{
+    width: 100%;
+    border-top-left-radius: 80px;
+}
+
+/* Sign up */
+
+#signup{
+    background: url(../img/showcase.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    padding: 40px 0;
+}
+
+.signup-text{
+    float: left;
+    width: 70% ;
+    color: #fff;
+    padding: 40px;
+}
+
+.signup-btn{
+    float: right;
+    width: 30%;
+    padding: 40px
+}
+
+.signup-btn .btn{
+    width: 200px;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: rgb(255, 255, 255, 0.7);
+    border: none;
+}
+
+/* about */
+
+#about{
+    padding-top: 90px;
+    padding-bottom: 90px;
+    text-align: center;
+}
+
+#about h2{
+    padding-bottom: 40px;
+}
+#about p{
+    padding-bottom: 20px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+/* Footer */
+
+#mainfooter{
+    background: url(../img/showcase.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 40px   ;
+    text-align: center;
+}

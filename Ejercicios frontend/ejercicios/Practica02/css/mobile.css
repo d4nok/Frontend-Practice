@@ -1,0 +1,114 @@
+
+/* Utility classes */
+
+.display-1 {
+    font-size: 50px;
+    
+}
+
+/* Navbar */
+
+#navbar{
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 100%;
+}
+
+
+
+#navbar .logo{
+    float: none;
+   text-align: center;
+}
+
+#navbar ul{
+    list-style: none;
+    float: right;
+}
+#navbar ul li{
+    float: left;
+}
+
+#navbar ul li a{
+    display: block;
+    /* margin-top: 10px; celular pixel 7a
+    margin-bottom: 10px;
+    padding: 12px; */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Showcase */
+#showcase{
+
+    height: 100%;
+    padding: 50px 0 ;
+}
+
+.showcase-title{
+    float: none;
+    width: 100%;
+    padding-right: 0px;
+}
+
+.showcase-title p{
+    padding: 10px;
+}
+
+.showcase-img{
+    float: none;
+    width: 100%;
+    padding: 40px;
+
+}
+
+
+/* Features */
+
+#features{
+    padding: 50px 0px;
+}
+
+.features-card{
+    padding-top: 30px ;
+}
+
+.card{
+    float: none;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Testimonial */
+#testimonial{
+    padding: 50px 0px;
+    text-align: center;
+}
+
+#tesimonial h3{
+    padding-bottom: 20px;
+}
+
+#testimonial p{
+    width: 100%;
+}
+
+/* contact */
+
+#contact {
+    padding: 50px 0px;
+}
+#contact form {
+    padding-top: 40px;
+    width: 90%;
+}
+
+/* Footer */
+
+#mainfooter{
+    background: #0a0b45;
+    text-align: center;
+    padding: 30px;
+}
