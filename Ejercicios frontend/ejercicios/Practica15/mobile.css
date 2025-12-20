@@ -1,0 +1,130 @@
+/* Utility Classes */
+
+
+.display-1{
+    font-size: 40px;
+
+}
+
+/* Navbar */
+
+/* #navbar{
+    border: 1px solid var(--display-color-1);
+    margin: 50px;
+    padding: 20px;
+} */
+
+#navbar .logo{
+    float: none;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+#navbar ul li a{
+    padding: 10px;
+}
+
+
+/* Showcase */
+
+
+#showcase img{
+    height: 300px;
+}
+
+/* Product */
+#product h4{
+    padding-bottom: 20px;
+}
+.product-box {
+    border: none;
+    padding: 20px;
+    height: 100%;
+    margin-top: 0px;
+}
+
+.product-box img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.product-1-img{
+    float: none;
+    width: 100%;
+}
+
+.product-1-text{
+    float: none;
+    width: 100%;
+    text-align: left;
+    /* padding: 80px 70px; */
+}
+
+.product-2-img{
+    float: none;
+    width: 100%;
+    /* padding-top: 30px; */
+}
+
+.product-2-text{
+    float: left;
+    width: 100%;
+    text-align: right;
+    /* padding: 80px 70px; */
+}
+
+/* About */
+
+#about h2{
+    padding-bottom: 50px;
+}
+
+.about-box-1{
+    float: left;
+    width: 50%;
+    padding: 20px;
+}
+
+.about-box-1 h3{
+    font-size: 60px;
+    padding-top: 140px;
+    padding-bottom: 20px;
+    line-height: 1em;
+}
+
+.about-box-2{
+    float: right;
+    width: 50%;
+    padding: 20px;
+}
+
+/* Contact */
+
+#contact h2{
+    padding-bottom: 50px;
+}
+
+.contact-description{
+    float: left;
+    width: 50%;
+    padding: 30px;
+}
+
+.contact-description p {
+    padding-top: 290px;
+}
+
+.contact-form{
+    float: right;
+    width: 50%;
+    padding: 20px;
+}
+
+/* Footer */
+
+#mainfooter{
+    text-align: center;
+    padding: 40px;
+}
+
